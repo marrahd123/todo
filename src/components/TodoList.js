@@ -11,7 +11,7 @@ const TodoList = ({ todos }) => (
       ? todos.map((todo, index) => {
           return <Todo key={`todo-${todo.id}`} todo={todo} />;
         })
-      : "No todos, yay!"}
+      : "None"}
   </ul>
 );
 
